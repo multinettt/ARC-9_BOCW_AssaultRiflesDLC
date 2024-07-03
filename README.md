@@ -1,6 +1,6 @@
-# ARC9 BOCW Assault Rifles
+# ARC9 BOCW Assault Rifles DLC
 
-5 BOCW Assault Rifles on the base [ARC9](https://github.com/HaodongMo/ARC-9)
+6 more BOCW Assault Rifles on the base [ARC9](https://github.com/HaodongMo/ARC-9)
 
 After the stuff I had to go through, I am finally starting making weapons again. The poll-winner Assault Rifles DLC will have 6 unique weapons that should be cool, i guess.
 
