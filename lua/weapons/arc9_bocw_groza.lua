@@ -594,7 +594,7 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = {"bocw_groza_muzzle"},
-        --Installed = "bocw_groza_muzzle_base",
+        Installed = "bocw_groza_muzzle_base",
     },
     {
         PrintName = "UNDRBARREL",
