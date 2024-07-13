@@ -468,12 +468,22 @@ SWEP.AttachmentElements = {
     },
     ["stock_mrt"] = {
         Bodygroups = {
-            {4, 1},
+            {3, 1},
+        }
+    },
+    ["stock_dst"] = {
+        Bodygroups = {
+            {3, 1},
         }
     },
     ["stock_cqb"] = {
         Bodygroups = {
-            {4, 1},
+            {3, 1},
+        }
+    },
+    ["stock_kgb"] = {
+        Bodygroups = {
+            {3, 1},
         }
     },
     ["barrel_ultralight"] = {
@@ -632,10 +642,10 @@ SWEP.Attachments = {
     },
     {
         PrintName = "STOCK",
-        Bone = "tag_stock",
+        Bone = "tag_weapon",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(1, 0, 0),
+        Icon_Offset = Vector(-10, 0, 3),
         Category = {"bocw_groza_stock"},
         InstalledElements = {"stockgone"},
     },
