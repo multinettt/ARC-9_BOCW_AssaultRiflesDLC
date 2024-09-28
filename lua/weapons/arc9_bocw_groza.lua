@@ -832,7 +832,7 @@ SWEP.Animations = {
             { s = "ARC9_BOCW.Groza_reload_start", t = 0 },
             { s = "ARC9_BOCW.Groza_reload_magout", t = 0.2 },
             { s = "ARC9_BOCW.Groza_reload_magin", t = 1.1 },
-            { s = "ARC9_BOCW.Groza_reload_end", t = 1.8 },
+            { s = "ARC9_BOCW.Groza_reload_end", t = 1.7 },
         },
         IKTimeLine = {
             {

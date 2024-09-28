@@ -133,6 +133,156 @@ sound.Add({
     sound = "weapons/arc9/bocw_groza/groza_fire_silenced.wav"
 })
 
+--========== FARA83 ============================================================
+-- MAGAZINE
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_magout",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_magout.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_maggrab",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_maggrab.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_magin",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_magin.wav"
+})
+
+-- BOLT OPERATION
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_boltback",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_boltback.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_boltrelease",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_boltrelease.wav"
+})
+
+-- RELOAD FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_start",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_start.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_empty_rattle",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_empty_rattle.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_grab",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_grab.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_reload_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_reload_end.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_inspect_part1",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_inspect_part1.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_inspect_part2",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_inspect_part2.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_inspect_part3",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_inspect_part3.wav"
+})
+
+-- READY PULLOUT PUTAWAY
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_ready.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_ready_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_ready_end.wav"
+})
+
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_draw",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_draw.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_holster",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_holster.wav"
+})
+
+-----------------------------------------------
+-- FIRING SOUNDS
+
+sound.Add({ -- BLACK OPS COLD WAR
+    name = "ARC9_BOCW.FARA83_fire",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    level = 100,
+    sound = "weapons/arc9/bocw_fara83/fara83_fire.wav"
+})
+
+sound.Add({ -- WARZONE
+    name = "ARC9_BOCW.FARA83_fire_wz",
+    channel = CHAN_STATIC,
+    volume = 0.7,
+    level = 100,
+    sound = "weapons/arc9/bocw_fara83/fara83_fire_wz.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.FARA83_fire_silenced",
+    channel = CHAN_STATIC,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_fara83/fara83_fire_silenced.wav"
+})
+
 --[[---------------------------------------------------------------------------------
 
 3.07.2024
