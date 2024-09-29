@@ -283,6 +283,150 @@ sound.Add({
     sound = "weapons/arc9/bocw_fara83/fara83_fire_silenced.wav"
 })
 
+--========== C58 ==============================================================
+-- MAGAZINE
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_magout",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_magout.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_maggrab",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_maggrab.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_magin",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_magin.wav"
+})
+
+-- BOLT OPERATION
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_boltback",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_boltback.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_boltrelease",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_boltrelease.wav"
+})
+
+
+sound.Add({
+    name = "ARC9_BOCW.C58_ready_boltback",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_ready_boltback.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_ready_boltrelease",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_ready_boltrelease.wav"
+})
+
+-- RELOAD FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_start",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_start.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_reload_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_reload_end.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.C58_inspect_part1",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_inspect_part1.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_inspect_part2",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_inspect_part2.wav"
+})
+
+-- READY PULLOUT PUTAWAY
+
+sound.Add({
+    name = "ARC9_BOCW.C58_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_ready.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_ready_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_ready_end.wav"
+})
+
+
+sound.Add({
+    name = "ARC9_BOCW.C58_draw",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_draw.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_holster",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_holster.wav"
+})
+
+-----------------------------------------------
+-- FIRING SOUNDS
+
+sound.Add({ -- BLACK OPS COLD WAR
+    name = "ARC9_BOCW.C58_fire",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    level = 100,
+    sound = "weapons/arc9/bocw_c58/c58_fire.wav"
+})
+
+sound.Add({ -- WARZONE
+    name = "ARC9_BOCW.C58_fire_wz",
+    channel = CHAN_STATIC,
+    volume = 0.7,
+    level = 100,
+    sound = "weapons/arc9/bocw_c58/c58_fire_wz.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.C58_fire_silenced",
+    channel = CHAN_STATIC,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_c58/c58_fire_silenced.wav"
+})
+
 --[[---------------------------------------------------------------------------------
 
 3.07.2024
