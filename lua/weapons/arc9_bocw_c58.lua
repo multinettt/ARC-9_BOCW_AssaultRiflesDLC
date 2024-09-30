@@ -183,8 +183,8 @@ SWEP.Firemodes = {
 -------------------------- RECOIL
 
 SWEP.Recoil = 1
-SWEP.RecoilSide = -0.4
-SWEP.RecoilUp = 0.5
+SWEP.RecoilSide = -0.35
+SWEP.RecoilUp = 0.6
 
 SWEP.RecoilRandomUp = 0
 SWEP.RecoilRandomSide = 0
@@ -217,7 +217,7 @@ SWEP.VisualRecoilRoll = 0.1
 
 SWEP.VisualRecoilCenter = Vector(0, 0, 0)
 
-SWEP.VisualRecoilPunch = 2
+SWEP.VisualRecoilPunch = 3
 SWEP.VisualRecoilPunchMultSights = 1
 
 
@@ -340,7 +340,10 @@ SWEP.NoViewBob = false
 
 -------------------------- VISUALS
 
-SWEP.BulletBones = { -- the bone that represents bullets in gun/mag
+SWEP.BulletBones = {
+    "tag_bullet_deplete_sqtl_00_animate",
+    "tag_bullet_deplete_sqtl_01_animate",
+    "tag_bullet_deplete_sqtl_02_animate" -- the bone that represents bullets in gun/mag
 }
 SWEP.CaseBones = {}
 -- Unlike BulletBones, these bones are determined by the missing bullet amount when reloading
@@ -841,7 +844,7 @@ SWEP.Animations = {
         Source = "reload",
         NoMagSwap = true,
         Mult = 0.8,
-        MinProgress = 0.58,
+        MinProgress = 1.6,
         EventTable = {
             { s = "ARC9_BOCW.C58_reload_start", t = 0 },
             { s = "ARC9_BOCW.C58_reload_magout", t = 0.35 },
@@ -875,7 +878,7 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         Mult = 0.95,
-        MinProgress = 2,
+        MinProgress = 2.2,
         EventTable = {
             { s = "ARC9_BOCW.C58_reload_start", t = 0 },
             { s = "ARC9_BOCW.C58_reload_boltback", t = 0.28 },
@@ -942,15 +945,16 @@ SWEP.Animations = {
     },
     ["reload_empty_ext"] = {
         Source = "reload_ext_empty",
-        MinProgress = 0.475,
+        MinProgress = 2.2,
         MagSwapTime = 1,
         EventTable = {
             { s = "ARC9_BOCW.C58_reload_start", t = 0 },
-            { s = "ARC9_BOCW.C58_reload_ext_magout", t = 0.2 },
-            { s = "ARC9_BOCW.C58_reload_ext_magin", t = 1.1 },
-            { s = "ARC9_BOCW.C58_boltback", t = 2 },
-            { s = "ARC9_BOCW.C58_boltrelease", t = 2.25 },
-            { s = "ARC9_BOCW.C58_reload_end", t = 2.65 },
+            { s = "ARC9_BOCW.C58_reload_boltback", t = 0.28 },
+            { s = "ARC9_BOCW.C58_reload_magout", t = 1.15 },
+            { s = "ARC9_BOCW.C58_reload_maggrab", t = 1.6 },
+            { s = "ARC9_BOCW.C58_reload_magin", t = 2.1 },
+            { s = "ARC9_BOCW.C58_reload_boltrelease", t = 3.2 },
+            { s = "ARC9_BOCW.C58_reload_end", t = 3.8 }
         },
         IKTimeLine = {
             {
