@@ -209,7 +209,7 @@ SWEP.RecoilPatternDrift = 8
 SWEP.UseVisualRecoil = true
 
 SWEP.VisualRecoil = 1
-SWEP.VisualRecoilMultSights = 1
+SWEP.VisualRecoilMultSights = 0.5
 
 SWEP.VisualRecoilUp = 0.25
 SWEP.VisualRecoilSide = -0.25
@@ -382,7 +382,7 @@ SWEP.CustomBlendFactor = nil
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(0, -1, 0),
+    Pos = Vector(0, -3, 0),
     Ang = Angle(0, 0, 0),
     Magnification = 1.2,
     Blur = true,

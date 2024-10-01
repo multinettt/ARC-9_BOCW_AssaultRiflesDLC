@@ -579,6 +579,113 @@ sound.Add({
     sound = "weapons/arc9/bocw_em2/em2_fire_silenced.wav"
 })
 
+--========== Grav =============================================================
+-- MAGAZINE
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_magout",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_magout.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_maggrab",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_maggrab.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_magin",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_magin.wav"
+})
+
+-- BOLT OPERATION
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_boltback",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_boltback.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_boltrelease",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_boltrelease.wav"
+})
+
+-- RELOAD FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_start",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_start.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_reload_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_reload_end.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_inspect.wav"
+})
+
+-- READY PULLOUT PUTAWAY
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_draw",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_draw.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_holster",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_holster.wav"
+})
+
+-----------------------------------------------
+-- FIRING SOUNDS
+
+sound.Add({ -- BLACK OPS COLD WAR
+    name = "ARC9_BOCW.Grav_fire",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    level = 100,
+    sound = "weapons/arc9/bocw_grav/grav_fire.wav"
+})
+
+sound.Add({ -- WARZONE
+    name = "ARC9_BOCW.Grav_fire_wz",
+    channel = CHAN_STATIC,
+    volume = 0.7,
+    level = 100,
+    sound = "weapons/arc9/bocw_grav/grav_fire_wz.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.Grav_fire_silenced",
+    channel = CHAN_STATIC,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_grav/grav_fire_silenced.wav"
+})
+
 --[[---------------------------------------------------------------------------------
 
 3.07.2024

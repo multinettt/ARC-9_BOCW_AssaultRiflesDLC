@@ -379,7 +379,7 @@ SWEP.CustomBlendFactor = nil
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(0, -1, 0),
+    Pos = Vector(0, -1.6, 0),
     Ang = Angle(0, 0, 0),
     Magnification = 1.2,
     Blur = true,
@@ -1192,7 +1192,7 @@ SWEP.Animations = {
         EventTable = {
             { s = "ARC9_BOCW.FARA83_inspect_part1", t = 0 },
             { s = "ARC9_BOCW.FARA83_inspect_part2", t = 3.3 },
-            { s = "ARC9_BOCW.FARA83_inspect_part3", t = 5.1 },
+            { s = "ARC9_BOCW.FARA83_inspect_part3", t = 5.2 },
         },
         IKTimeLine = {
             {

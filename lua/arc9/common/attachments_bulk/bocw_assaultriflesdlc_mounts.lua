@@ -15,12 +15,12 @@ ATT.Category = {"optic_em2"}
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.012, 5, -2.44),
+        Pos = Vector(-0.012, 5.5, -2.44),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
     },
     {
-        Pos = Vector(0.68, 5, -1.68),
+        Pos = Vector(0.68, 5.5, -1.68),
         Ang = Angle(0, 0, 0),
         Magnification = 1.2,
         Disassociate = true
