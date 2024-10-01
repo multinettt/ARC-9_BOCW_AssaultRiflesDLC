@@ -427,6 +427,158 @@ sound.Add({
     sound = "weapons/arc9/bocw_c58/c58_fire_silenced.wav"
 })
 
+--========== EM2 ==============================================================
+-- MAGAZINE
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_magout",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_magout.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_magin",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_magin.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_empty_magout",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_empty_magout.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_empty_magin",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_empty_magin.wav"
+})
+
+
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_magout_old",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_magout_old.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_magin_old",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_magin_old.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_empty_magout_old",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_empty_magout_old.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_empty_magin_old",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_empty_magin_old.wav"
+})
+
+
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_dual_empty_magtap",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_dual_empty_magtap.wav"
+})
+
+-- RELOAD FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_start",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_start.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_reload_end",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_reload_end.wav"
+})
+
+-- INSPECT FOLEY
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_inspect",
+    channel = CHAN_ITEM,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_inspect.wav"
+})
+
+-- READY PULLOUT PUTAWAY
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_ready",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_ready.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_ready_quick",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_ready_quick.wav"
+})
+
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_draw",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_draw.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_holster",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_holster.wav"
+})
+
+-----------------------------------------------
+-- FIRING SOUNDS
+
+sound.Add({ -- BLACK OPS COLD WAR
+    name = "ARC9_BOCW.EM2_fire",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    level = 100,
+    sound = "weapons/arc9/bocw_em2/em2_fire.wav"
+})
+
+sound.Add({ -- WARZONE
+    name = "ARC9_BOCW.EM2_fire_wz",
+    channel = CHAN_STATIC,
+    volume = 0.7,
+    level = 100,
+    sound = "weapons/arc9/bocw_em2/em2_fire_wz.wav"
+})
+
+sound.Add({
+    name = "ARC9_BOCW.EM2_fire_silenced",
+    channel = CHAN_STATIC,
+    volume = 1.0,
+    sound = "weapons/arc9/bocw_em2/em2_fire_silenced.wav"
+})
+
 --[[---------------------------------------------------------------------------------
 
 3.07.2024
