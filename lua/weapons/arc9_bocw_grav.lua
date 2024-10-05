@@ -165,7 +165,7 @@ SWEP.DropMagazineVelocity = Vector(0, -100, 0) -- Put something here if your ani
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 750
+SWEP.RPM = 650
 
 -- Works different to ArcCW
 

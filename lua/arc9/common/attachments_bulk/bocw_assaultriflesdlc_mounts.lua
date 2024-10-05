@@ -17,12 +17,12 @@ ATT.Sights = {
     {
         Pos = Vector(-0.012, 5.5, -2.44),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.2,
+        Magnification = 1.4,
     },
     {
         Pos = Vector(0.68, 5.5, -1.68),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.2,
+        Magnification = 1.41,
         Disassociate = true
     }
 }
